@@ -46,7 +46,7 @@ public class VeiculoRepositoryImp implements VeiculoRepository {
                 .param("placa", veiculo.getPlaca())
                 .param("ano", veiculo.getAno())
                 .param("cor", veiculo.getCor())
-                .param("valor_diaria", veiculo.getValorDiaria())
+                .param("valorDiaria", veiculo.getValorDiaria())
                 .update();
     }
 

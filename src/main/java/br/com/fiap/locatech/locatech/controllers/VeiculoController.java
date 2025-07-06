@@ -24,8 +24,6 @@ public class VeiculoController {
         this.veiculoService = veiculoService;
     }
 
-    // http://localhost:8080/veiculos/1
-    // http://localhost:8080/veiculos?page=1&size=10
 
     @GetMapping
     public ResponseEntity<List<Veiculo>> findAllVeiculos(
